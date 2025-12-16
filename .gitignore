@@ -1,4 +1,35 @@
-/client
-/docker-compose.yml
-/server
-/uwpClient
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# React
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# UWP
+AppPackages/
+Binaries/
+*.appx
+*.msixbundle
+.vs/
+.vscode/
+bin/
+obj/
+
+# General
+.DS_Store
+.env
+.idea/
+*.swp
+*.swo
